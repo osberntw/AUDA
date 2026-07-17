@@ -1,0 +1,9 @@
+Term,Model 1
+Election,-0.840*** (0.206)
+Protests,-0.187 (0.210)
+Court,-1.009*** (0.212)
+Additive conspiracy index,-0.043 (0.048)
+Election*Additive conspiracy index,0.134** (0.060)
+Protests*Additive conspiracy index,0.076 (0.063)
+Court*Additive conspiracy index,0.169*** (0.062)
+N,1227

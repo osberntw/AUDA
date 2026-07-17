@@ -1,0 +1,13 @@
+Treatment,Mediator,Low-conspiracy ACME,High-conspiracy ACME
+Election,Undemocraticness,"-0.44 [-0.61, -0.31]","-0.13 [-0.26, -0.01]"
+Election,Negative emotion,"-0.27 [-0.40, -0.17]","-0.11 [-0.20, -0.04]"
+Election,Enthusiasm,"-0.08 [-0.17, 0.01]","0.18 [0.05, 0.30]"
+Election,Trustworthiness,"-0.41 [-0.54, -0.29]","-0.01 [-0.18, 0.15]"
+Election,Competence,"-0.29 [-0.42, -0.17]","-0.15 [-0.30, -0.002]"
+Election,Sincerity,"-0.25 [-0.39, -0.13]","-0.08 [-0.21, 0.06]"
+Court,Undemocraticness,"-0.45 [-0.59, -0.30]","-0.11 [-0.27, 0.04]"
+Court,Negative emotion,"-0.23 [-0.33, -0.13]","-0.13 [-0.22, -0.05]"
+Court,Enthusiasm,"-0.05 [-0.13, 0.06]","0.19 [0.06, 0.33]"
+Court,Trustworthiness,"-0.33 [-0.47, -0.20]","0.00 [-0.18, 0.16]"
+Court,Competence,"-0.23 [-0.35, -0.11]","-0.09 [-0.26, 0.07]"
+Court,Sincerity,"-0.11 [-0.23, 0.03]","-0.03 [-0.17, 0.11]"

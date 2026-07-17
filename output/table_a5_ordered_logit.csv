@@ -1,0 +1,17 @@
+Term,H1: Baseline,H2: Partisan alignment,H3: Conspiracy moderation
+Election,-0.638*** (0.150),-1.090*** (0.352),-0.655*** (0.150)
+Protests,0.168 (0.157),0.215 (0.379),0.194 (0.158)
+Court,-0.720*** (0.152),-1.133*** (0.353),-0.721*** (0.153)
+Out-group,,-0.605 (0.440),
+Independent,,-0.696** (0.310),
+Election*Out-group,,0.414 (0.540),
+Protests*Out-group,,-0.083 (0.566),
+Court*Out-group,,0.608 (0.537),
+Election*Independent,,0.560 (0.395),
+Protests*Independent,,-0.054 (0.423),
+Court*Independent,,0.426 (0.398),
+Conspiracy mentality,,,-0.122 (0.144)
+Election*Conspiracy mentality,,,0.487*** (0.179)
+Protests*Conspiracy mentality,,,0.284 (0.187)
+Court*Conspiracy mentality,,,0.590*** (0.184)
+N,1227,1227,1227

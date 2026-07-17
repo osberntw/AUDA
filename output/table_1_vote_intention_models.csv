@@ -1,0 +1,34 @@
+Predictor,H1: Baseline,H2: Partisan alignment,H3: Conspiracy moderation
+Election denial,-0.429***,-0.717**,-0.440***
+,(0.098),(0.224),(0.097)
+Protest restriction,0.037,0.011,0.044
+,(0.100),(0.236),(0.099)
+Judicial attack,-0.491***,-0.732**,-0.496***
+,(0.100),(0.222),(0.098)
+Outgroup,,-0.462,
+,,(0.283),
+Independent/non-aligned,,-0.459*,
+,,(0.202),
+Election denial*outgroup,,0.385,
+,,(0.339),
+Protest restriction*outgroup,,0.075,
+,,(0.353),
+Judicial attack*outgroup,,0.413,
+,,(0.339),
+Election denial*non-aligned,,0.340,
+,,(0.255),
+Protest restriction*non-aligned,,0.027,
+,,(0.266),
+Judicial attack*non-aligned,,0.238,
+,,(0.255),
+Conspiracy mentality,,,-0.105
+,,,(0.092)
+Election denial*conspiracy mentality,,,0.319**
+,,,(0.112)
+Protest restriction*conspiracy mentality,,,0.189
+,,,(0.115)
+Judicial attack*conspiracy mentality,,,0.385***
+,,,(0.114)
+Constant,2.051***,2.425***,2.051***
+,(0.077),(0.180),(0.077)
+N,"1,227","1,227","1,227"

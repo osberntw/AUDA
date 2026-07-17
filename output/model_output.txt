@@ -1,0 +1,105 @@
+Broader submitted sample: 2013 
+Main analytic sample: 1227 
+
+Table 1 model: H1
+
+Call:
+lm(formula = intent ~ vignette, data = data_main)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.08777 -0.62222 -0.05093  0.91223  2.43976 
+
+Coefficients:
+                 Estimate Std. Error t value             Pr(>|t|)    
+(Intercept)       2.05093    0.07749  26.466 < 0.0000000000000002 ***
+vignetteElection -0.42870    0.09802  -4.374          0.000013266 ***
+vignetteProtests  0.03685    0.10036   0.367                0.714    
+vignetteCourt    -0.49068    0.09956  -4.929          0.000000942 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 1.139 on 1223 degrees of freedom
+Multiple R-squared:  0.04254,	Adjusted R-squared:  0.04019 
+F-statistic: 18.11 on 3 and 1223 DF,  p-value: 0.00000000001677
+
+
+Table 1 model: H2
+
+Call:
+lm(formula = intent ~ vignette * ingroup3, data = data_main)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.43636 -0.70833  0.03356  0.57500  2.52717 
+
+Coefficients:
+                                     Estimate Std. Error t value
+(Intercept)                           2.42500    0.17958  13.504
+vignetteElection                     -0.71667    0.22398  -3.200
+vignetteProtests                      0.01136    0.23602   0.048
+vignetteCourt                        -0.73167    0.22237  -3.290
+ingroup3Out-group                    -0.46204    0.28289  -1.633
+ingroup3Independent                  -0.45856    0.20226  -2.267
+vignetteElection:ingroup3Out-group    0.38528    0.33900   1.137
+vignetteProtests:ingroup3Out-group    0.07485    0.35303   0.212
+vignetteCourt:ingroup3Out-group       0.41254    0.33897   1.217
+vignetteElection:ingroup3Independent  0.33985    0.25477   1.334
+vignetteProtests:ingroup3Independent  0.02712    0.26593   0.102
+vignetteCourt:ingroup3Independent     0.23805    0.25518   0.933
+                                                 Pr(>|t|)    
+(Intercept)                          < 0.0000000000000002 ***
+vignetteElection                                  0.00141 ** 
+vignetteProtests                                  0.96161    
+vignetteCourt                                     0.00103 ** 
+ingroup3Out-group                                 0.10267    
+ingroup3Independent                               0.02355 *  
+vignetteElection:ingroup3Out-group                0.25595    
+vignetteProtests:ingroup3Out-group                0.83212    
+vignetteCourt:ingroup3Out-group                   0.22382    
+vignetteElection:ingroup3Independent              0.18248    
+vignetteProtests:ingroup3Independent              0.91879    
+vignetteCourt:ingroup3Independent                 0.35108    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 1.136 on 1215 degrees of freedom
+Multiple R-squared:  0.05403,	Adjusted R-squared:  0.04547 
+F-statistic: 6.309 on 11 and 1215 DF,  p-value: 0.0000000003282
+
+
+Table 1 model: H3
+
+Call:
+lm(formula = intent ~ vignette * conspiracy, data = data_main)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.22745 -0.85589 -0.00197  0.87794  3.00819 
+
+Coefficients:
+                            Estimate Std. Error t value             Pr(>|t|)
+(Intercept)                  2.05070    0.07665  26.755 < 0.0000000000000002
+vignetteElection            -0.43985    0.09701  -4.534          0.000006357
+vignetteProtests             0.04362    0.09941   0.439             0.660908
+vignetteCourt               -0.49566    0.09848  -5.033          0.000000555
+conspiracy                  -0.10497    0.09178  -1.144             0.252947
+vignetteElection:conspiracy  0.31917    0.11185   2.854             0.004397
+vignetteProtests:conspiracy  0.18910    0.11488   1.646             0.100010
+vignetteCourt:conspiracy     0.38479    0.11397   3.376             0.000758
+                               
+(Intercept)                 ***
+vignetteElection            ***
+vignetteProtests               
+vignetteCourt               ***
+conspiracy                     
+vignetteElection:conspiracy ** 
+vignetteProtests:conspiracy    
+vignetteCourt:conspiracy    ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 1.126 on 1219 degrees of freedom
+Multiple R-squared:  0.0664,	Adjusted R-squared:  0.06104 
+F-statistic: 12.39 on 7 and 1219 DF,  p-value: 0.000000000000002171
+

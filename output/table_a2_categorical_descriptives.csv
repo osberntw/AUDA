@@ -1,0 +1,24 @@
+Variable,Category,N,Percent
+State,ACT,20,1.63
+State,NSW,402,32.76
+State,NT,4,0.33
+State,QLD,261,21.27
+State,SA,110,8.96
+State,TAS,38,3.1
+State,VIC,280,22.82
+State,WA,112,9.13
+Detailed party ID,Coalition,197,16.06
+Detailed party ID,Greens,44,3.59
+Detailed party ID,Independent,16,1.3
+Detailed party ID,Labor,282,22.98
+Detailed party ID,No party ID,641,52.24
+Detailed party ID,One Nation,47,3.83
+Partisan alignment,In-group,242,19.72
+Partisan alignment,Independent,748,60.96
+Partisan alignment,Out-group,237,19.32
+Experimental vignette,Control,216,17.6
+Experimental vignette,Election denial,360,29.34
+Experimental vignette,Judicial attack,332,27.06
+Experimental vignette,Protest restriction,319,26
+MP party in vignette,Opposition,620,50.53
+MP party in vignette,Ruling,607,49.47

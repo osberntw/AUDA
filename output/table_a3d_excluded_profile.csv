@@ -1,0 +1,8 @@
+Variable,Main analytic sample (N = 1227),Excluded from main sample (N = 786),p-value
+Male (%),41.6,45.2,0.122
+Age,35.69,29.83,<0.001
+Education,1.04,1.00,0.040
+Income,0.60,0.58,0.072
+Ideology,0.47,0.47,0.772
+Major-party identifier (%),39.0,39.1,1.000
+Passed attention check (%),74.9,71.8,0.131
