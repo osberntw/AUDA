@@ -1,4 +1,4 @@
-# Replication package
+# Replication package for manuscript "Conspiracy Mentality and the Erosion of Democratic Accountability"
 
 This folder contains the limited data and R scripts needed to reproduce the empirical results reported in the manuscript and appendix for the Australia survey experiment.
 
